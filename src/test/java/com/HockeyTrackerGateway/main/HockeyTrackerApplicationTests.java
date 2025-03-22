@@ -1,4 +1,4 @@
-package com.hockey_tracker.hockey_tracker_gateway;
+package com.HockeyTrackerGateway.main;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
