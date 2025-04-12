@@ -1,7 +1,5 @@
 package com.HockeyTrackerGateway.model;
 
-import java.util.Date;
-
 public class Player {
 
     @Override
@@ -16,7 +14,7 @@ public class Player {
                 '}';
     }
 
-    public Player(String uuid, String name, Date dob, String position, Team team, String image) {
+    public Player(String uuid, String name, String dob, String position, Team team, String image) {
         this.uuid = uuid;
         this.name = name;
         this.dob = dob;
@@ -27,7 +25,7 @@ public class Player {
 
     private String uuid;
     private String name;
-    private Date dob;
+    private String dob;
     private String position;
     private Team team;
     private String image;
@@ -40,11 +38,11 @@ public class Player {
         this.name = name;
     }
 
-    public Date getDob() {
+    public String getDob() {
         return dob;
     }
 
-    public void setDob(Date dob) {
+    public void setDob(String dob) {
         this.dob = dob;
     }
 
